@@ -10,11 +10,6 @@ This is a project seed.
 - Mocha
  - Chai
  - Sinon
-
-
-#### TODO:
-
-Build Stack:
 - ESLint
 
 *License MIT*
