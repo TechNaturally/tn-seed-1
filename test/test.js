@@ -1,31 +1,21 @@
-const Foo = require('../dist/foo.js').default;
-const FooBar = require('../dist/foobar.js').default;
-
-const chai = require('chai'),
-      sinon = require('sinon'),
-      sinonChai = require('sinon-chai');
-chai.use(sinonChai);
-
 const assert = chai.assert;
 
-var foo = new Foo();
+var foobar = new FooBar();
 
 describe('Foo', function() {
   describe('#foo getter', function() {
     it('should return "Foo" by default', function() {
-      assert.equal('Foo', foo.foo);
+      assert.equal('Foo', foobar.foo);
     });
   });
 
   describe('#foo setter', function() {
     it('should set foobar.foo to "fOo."', function() {
-      foo.foo = "fOo.";
-      assert.equal('fOo.', foo.foo);
+      foobar.foo = "fOo.";
+      assert.equal('fOo.', foobar.foo);
     });
   });
 });
-
-var foobar = new FooBar();
 
 describe('FooBar', function() {
   describe('#bar getter', function() {
@@ -42,8 +32,8 @@ describe('FooBar', function() {
   });
 
   describe('#foobar getter', function() {
-    it('should return "Foob4R"', function() {
-      assert.equal('Foob4R', foobar.foobar);
+    it('should return "fOo.b4R"', function() {
+      assert.equal('fOo.b4R', foobar.foobar);
     });
   });
 });

@@ -1,10 +1,11 @@
-## TechNaturally Seed #1
+## TechNaturally Seed #1 - *[run in browser]*
 
 This is a project seed.
 
 #### Build Stack:
 - Gulp
 - Babel
+- Browserify
 - Mocha
  - Chai
  - Sinon
@@ -14,7 +15,6 @@ This is a project seed.
 
 Build Stack:
 - SASS
-- Browserify
 - ESLint
 
 *License MIT*
