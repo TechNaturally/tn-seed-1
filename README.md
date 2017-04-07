@@ -6,6 +6,7 @@ This is a project seed.
 - Gulp
 - Babel
 - Browserify
+- SASS
 - Mocha
  - Chai
  - Sinon
@@ -14,7 +15,6 @@ This is a project seed.
 #### TODO:
 
 Build Stack:
-- SASS
 - ESLint
 
 *License MIT*

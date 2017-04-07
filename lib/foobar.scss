@@ -1,0 +1,17 @@
+.foobar {
+	display: inline-block;
+	border: 1px dashed #999999;
+	margin: 10px;
+	div {
+		display: inline-block;
+		width: 150px;
+		height: 150px;
+		margin: 10px;
+		&.foo {
+			background-color: #990066;
+		}
+		&.bar {
+			background-color: #006699;
+		}
+	}
+}
