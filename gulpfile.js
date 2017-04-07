@@ -116,6 +116,7 @@ gulp.task('lint:js', function(){
   return lintJS();
 });
 
+
 /** WATCH TASKS **/
 gulp.task('watch', ['watch:js', 'watch:sass']);
 
