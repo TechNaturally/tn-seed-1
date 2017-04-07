@@ -1,8 +1,9 @@
-## TechNaturally Seed #1 - *[run in browser]*
+## TechNaturally Seed #1 - *[paper.js + canvas]*
 
 This is a project seed.
 
 #### Build Stack:
+- paper.js
 - Gulp
 - Babel
 - Browserify

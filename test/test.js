@@ -1,7 +1,5 @@
 const assert = chai.assert;
 
-var foobar = new FooBar();
-
 describe('Foo', function() {
   describe('#foo getter', function() {
     it('should return "Foo" by default', function() {
